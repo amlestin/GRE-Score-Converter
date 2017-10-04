@@ -183,7 +183,7 @@ document.getElementById('scoreInput').addEventListener('input', function(e){
     {
     document.getElementById('verbalOutput').innerHTML = verbalInput+"\\"+verbalResult;
     document.getElementById('quantitativeOutput').innerHTML = quantitativeInput+"\\"+quantitativeResult;
-    document.getElementById('totalOutput').innerHTML = parseInt(verbalResult)+parseInt(quantitativeResult);
+    document.getElementById('totalOutput').innerHTML = (parseInt(verbalInput)+parseInt(quantitativeInput))+"\\"+(parseInt(verbalResult)+parseInt(quantitativeResult));
     }
     else
     {
