@@ -181,9 +181,9 @@ document.getElementById('scoreInput').addEventListener('input', function(e){
 
     if (typeof verbalResult != 'undefined' & typeof quantitativeResult != 'undefined')
     {
-    document.getElementById('verbalOutput').innerHTML = verbalInput+"\\"+verbalResult;
-    document.getElementById('quantitativeOutput').innerHTML = quantitativeInput+"\\"+quantitativeResult;
-    document.getElementById('totalOutput').innerHTML = (parseInt(verbalInput)+parseInt(quantitativeInput))+"\\"+(parseInt(verbalResult)+parseInt(quantitativeResult));
+    document.getElementById('verbalOutput').innerHTML = verbalInput+"/"+verbalResult;
+    document.getElementById('quantitativeOutput').innerHTML = quantitativeInput+"/"+quantitativeResult;
+    document.getElementById('totalOutput').innerHTML = (parseInt(verbalInput)+parseInt(quantitativeInput))+"/"+(parseInt(verbalResult)+parseInt(quantitativeResult));
     }
     else
     {
